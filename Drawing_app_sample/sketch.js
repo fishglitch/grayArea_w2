@@ -3,7 +3,8 @@ let blueButton, greenButton;
 let paletteWidth = 100;
 
 function setup() {
-  createCanvas(500, 400);
+  let cnv = createCanvas(500,400);
+  cnv.parent('specialDiv');
 
   blueButton = new PaintButton(30, 30, 40, color("#3F5DE6"));
   greenButton = new PaintButton(30, 100, 40, color("#2B7D28"));

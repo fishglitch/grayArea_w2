@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+
+h1{
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+  color: green
+}
+
+body{
+  background: linear-gradient(lightblue, lightgreen);
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
